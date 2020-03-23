@@ -1,0 +1,90 @@
+// Body
+$body-bg: #f8fafc;
+
+// Typography
+$font-family-sans-serif: 'Nunito', sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+// Colors
+$blue: #3490dc;
+$indigo: #6574cd;
+$purple: #9561e2;
+$pink: #f66d9b;
+$red: #FF4500;
+$orange: #f6993f;
+$yellow: #ffed4a;
+$green: #38c172;
+$teal: #4dc0b5;
+$cyan: #6cb2eb;
+
+html, body{
+    background-color:  $body-bg;
+    font-family: $font-family-sans-serif;
+}
+.navbar-brand img{
+    max-width: 150px;
+    height: auto;
+}
+.nav-link{
+    font-size: 1.12rem;
+}
+.highlighted{
+    a{
+        color: #FF4500!important;
+    }
+}
+.highlighted:hover{
+    a{
+        color: rgb(194, 52, 0)!important;
+    }
+}
+.textprimecolor{
+    color: #FF4500!important;
+}
+
+.categorybox{
+    border-radius: 9px;
+    border: 1px solid #3490dc;
+    background: #F8FAFC;
+    box-shadow: -6px -6px 20px rgba(255,255,255,1), 
+                6px 6px 20px rgba(0,0,0,0.1);
+    cursor: pointer;
+  }
+  .categorybox h5{
+  margin-bottom: 0px!important;
+}
+  .categoryboxs{
+    border-radius: 6px;
+    border: 1px solid #7babd1;
+    background: #F8FAFC;
+    box-shadow: -6px -6px 20px rgba(255,255,255,1), 
+                6px 6px 20px rgba(0,0,0,0.1);
+    cursor: pointer;
+  }
+  .categoryboxs h6{
+    margin-bottom: 0px!important;
+  }
+  .footer{
+    background-color: #2a4365;
+    color: #fff;
+  }
+
+  .footer ul {
+      text-decoration: none;
+      padding: 0;
+      list-style-type: none;
+      -webkit-padding-start: 0;
+  }
+  .footer ul li a {
+    text-decoration: none;
+    padding: 0;
+    list-style-type: none;
+    -webkit-padding-start: 0;
+}
+.footer a {
+    text-decoration: none;
+    padding: 0;
+    list-style-type: none;
+    -webkit-padding-start: 0;
+}
